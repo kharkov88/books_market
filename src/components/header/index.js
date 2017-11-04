@@ -10,7 +10,7 @@ class Header extends React.Component{
     render(){
         let {match,cart} = this.props
         return (
-            <div>
+            <div className="app-header">
                 <Menu match={match}/>
                 <Cart cart={cart}/>
             </div>

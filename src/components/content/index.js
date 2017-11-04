@@ -30,13 +30,14 @@ export default  ({activeID,list,actions,order})=>{
                     <Product 
                         match={match}
                         list={list}
+                        order={order}
                         activeID={activeID}
                         actions={actions}
                         updateResult={updateResult}
                     />)}
             />
             <Route path="/добавить" component={()=><AddForm onSubmit={showResults} />}/>
-            <Route path="/корзина" component={()=><Order order={order}/>}/>
+            <Route path="/корзина" component={()=><Order order={order} actions={actions}/>}/>
         </div>
     )
 }    

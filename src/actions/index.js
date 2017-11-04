@@ -69,3 +69,10 @@ export function order(cart){
         payload:cart
     }
 }
+const DELTE_FROM_ORDER = 'DELETE_FROM_ORDER'
+export function deleteFromOrder(id){
+    return{
+        type:DELTE_FROM_ORDER,
+        payload:id
+    }
+}

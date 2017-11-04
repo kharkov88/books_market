@@ -1,5 +1,8 @@
+.app-header{
+    position: relative;
+}
 .header-cart{
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
 }

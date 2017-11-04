@@ -57,6 +57,12 @@ function cart(state={count:0,ids:[]},{type,payload}){
         })
         case 'ORDER':
         return Object.assign({},state,{order:payload})
+        case 'DELETE_FROM_ORDER':
+        return Object.assign({},state,{
+            count:--state.count,
+            ids:state.ids.filter(i=>i.id!=payload)
+        })
+
         default: return state
     }
 }
