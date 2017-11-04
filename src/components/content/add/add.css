@@ -1,0 +1,18 @@
+.form{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+.form-row{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.form-row>div{
+    display: flex;
+    flex-direction: column;
+}
+.form-row input{
+    width: 350px;
+}

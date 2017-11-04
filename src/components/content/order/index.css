@@ -1,0 +1,16 @@
+.content-order-item{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #000;
+}
+.content-order-label{
+    text-align: center;
+}
+.content-order-title{
+    margin: 50px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
